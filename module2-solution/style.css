@@ -12,6 +12,7 @@ h1 {
 	text-align: center;
 	color: rgb(0, 0, 0);
 	margin-bottom: 30px;
+	margin-top: 50px;
         
 }
 
@@ -27,6 +28,7 @@ p {
    	border: 1px solid black;
    	margin-top: 20px; 
    	margin-right: 20px; 
+   	margin-left: 20px;
    	padding: 3px;
    	text-align: justify;
    	position: relative;
@@ -38,18 +40,18 @@ span {
 	border: 1px solid black;
 	font-weight: bold;
 	text-align: center;
-float: right; top :0; right: 0; margin: 0;
+	float: right; top :0; right: 0; margin: 0;
 	position: absolute;
 }
-#pp1 {
+#p1 {
 	background-color: rgb(250, 150, 150);
 	color: rgb(0, 0, 0);
 }
-#pp2 {
+#p2 {
 	background-color: rgb(250, 0, 0);
 	color: rgb(250, 250, 250);
 }
-#pp3 {
+#p3 {
 	background-color: rgb(200, 200, 100);
 	color: rgb(0, 0, 0);
 }
@@ -59,7 +61,7 @@ float: right; top :0; right: 0; margin: 0;
 	width: 100%;
 }
 
-/*  PC view */
+/* Vista en PC */
 
 @media (min-width: 992px) {
  
@@ -69,7 +71,7 @@ float: right; top :0; right: 0; margin: 0;
 	}
 }
 
-/* Tablet view */
+/* Vista en Tablet */
 @media (min-width: 768px) and (max-width: 991px) {
  
   .col-md-6 {
@@ -81,7 +83,7 @@ float: right; top :0; right: 0; margin: 0;
     float: left;
   }
 }
-/*for very small screens or mobile devices */
+/* Vista en dispositivos mobiles */
 @media (max-width: 767px)  {
   
   .col-sx-12 {
