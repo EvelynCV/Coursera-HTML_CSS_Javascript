@@ -87,7 +87,7 @@ span {
 @media (max-width: 767px)  {
   
   .col-sx-12 {
+  	width: 100%;
   	float: left;
-    width: 100%;
   }
 }
