@@ -38,7 +38,6 @@ body {
 	color: black;
 }
 
-
 .row {
 	
 	position: relative;
@@ -46,7 +45,7 @@ body {
 }
 
 .row > div > article {
-	background-color: #9d8189;
+	background-color: #cebebe;
 	text-align: justify;
 	margin-bottom: 20px;
 	padding: 12px;
